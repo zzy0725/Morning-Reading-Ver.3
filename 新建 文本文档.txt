@@ -1,0 +1,3 @@
+Private Sub Form_Load()
+Timer1.Interval = 500
+Label2.Caption = Year(Date) & "Äê" & Month(Date) & "ÔÂ" & Day(Date) & "ÈÕ"
